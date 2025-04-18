@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shorya Prajapat</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/7ff163576e.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="/images/Screenshot 2025-04-17 203203.png" class="Logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Servics</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Machine Learner</p>
+                <h1>Hi, I'm <span>Shorya Prajapat</span><br>from Rajasthan</h1>
+            </div>
+        </div>
+    </div>
+    <!-- --------------about------------ -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="/images/Profile.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Computer Science undergraduate with a strong interest in Machine Learning, UI/UX design, 
+                        and mobile app development using React Native. Experienced in building impactful projects 
+                        such as a and a Stock Price Prediction model using Linear Regression(Accuracy 99.98%),
+                        Crowdsourced Data Platform, and Hackathon Registration Portal. Also developed a Python-based 
+                        Typing Speed Test Game to measure typing speed and accuracy. Proficient in Python, Java, MySQL, 
+                        and React Native, with hands-on experience in UI/UX design and backend development. 
+                        Currently working on a social media app and a software bug classification model 
+                        using machine learning. Actively engaged in university events, certified through 
+                        Coursera and Red Hat, and a core member of the photography committee.
+                    </p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick=" opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick=" opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id ="skills">
+                        <ul>
+                            <li><span>PROGRAMMINF LANGUAGE</span><br>C, Python, Java, HTML, Css, JavaScript (basics)</li>
+                            <li><span>FRAMEWORK</span><br>Pandas, NumPy, SciKit Learn</li>
+                            <li><span>SOFTWARE/TOOLS</span><br>Figma, Microsoft Office, AutoCAD, TinkerCAD</li>
+                            <li><span>DATABASE</span><br>MySql</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id ="experience">
+                        <ul>
+                            <li><span>TEACHING ASSISTANT </span> <br>JK Lakshmipat University, Jaipur,Rajasthan
+                                <br>Duration: July 2024- NOVEMBER 2023 <br>•	Assist students with understanding Python concepts and solving programming problems.
+                                <br>•	Support lab sessions and help with assignments and coding exercises.
+                                <br>•	Contribute to course materials and provide feedback on student progress
+                                </li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id ="education">
+                        <ul>
+                            <li><span>JK Lakshmipat University</span><br>Bachelor of computer science <br><b>3rd sem SGPA: 8.81</b></li>
+                            <li><span>Jai Prakash Narayan Sr. Sec. School, Bhankrota, Jaipur, Rajasthan</span><br><b>12th RBSE Percentage: 90%</b></li>
+                            <li><span>E Planet Academy, Bhankrota, Jaipur, Rajasthan</span><br><b>10th RBSE Percentage: 87%</b></li>
+                            <li><span><b>Relevant Courses</b></span><br>Database and management system, Operating System, Machine Learning, Design And Analysis Of Algorithm, Data Structure and Algorithm, Competitive Programming</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ----------serves-------- -->
+     <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-desktop"></i>
+                    <h2>Machine Learning</h2>
+                    <p>Focusing on building models, understanding algorithms, and applying data-driven solutions to real-world problems</p>
+                    <a href="#">Learn more</a>
+                    
+                </div>
+                <div>
+                    <i class="fas fa-crop-alt"></i>
+                    <h2>UI/UX</h2>
+                    <p>UI/UX design focuses on creating visually appealing interfaces and seamless user experiences.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fas fa-code"></i>
+                    <h2>React Native</h2>
+                    <p>Experienced in building cross-platform mobile applications using React Native, with knowledge of UI components, state management, navigation, and API integration.</p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+     </div>
+     <!-- --------------portfolio----------------- -->
+      <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="https://imgs.search.brave.com/C2s6btjhlOWKbSXVJyGq5nzTc6UXeBmzKV_c0akY-R0/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pbWcu/ZnJlZXBpay5jb20v/cHJlbWl1bS1waG90/by9pbnRlcm5ldC1z/ZWN1cml0eS1jb21w/dXRlci12aXJ1cy10/cm9qYW4tbmV0d29y/ay1oYWNrZXItaGFj/a2luZy1zeW1ib2xf/NzcwMTIzLTI0MzIu/anBnP3NlbXQ9YWlz/X2h5YnJpZA">
+                    <div class="layer">
+                        <h3>Software Bug Prediction Project (Working)</h3>
+                        <p>Developed a machine learning model to predict potential software bugs using code metrics and historical bug data. Extracted features such as code complexity, churn rate, and past defect history to train classifiers like Random Forest and SVM, improving early bug detection and software reliability.</p>
+                        <a href="https://github.com/Shorya1117/Software_Bug_Pridiction"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="https://imgs.search.brave.com/hm5ErLWKe4BzepwXpJyFnyA9V8T7LiJahb8cpN1UIUc/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93d3cu/aW52ZXN0b3BlZGlh/LmNvbS90aG1iLzNf/eFRvMEVvQUVJU0FV/dkJjRW5FaFdiM1cz/TT0vMjgyeDE4OC9m/aWx0ZXJzOm5vX3Vw/c2NhbGUoKTptYXhf/Ynl0ZXMoMTUwMDAw/KTpzdHJpcF9pY2Mo/KS9zd2luZ3RyYWRp/bmctNzc5OTc5MDU3/MGRlNDU5Y2IxNTEx/YWVkY2NmYjZmMjIu/cG5n">
+                    <div class="layer">
+                        <h3>Stock Market Prediction Project</h3>
+                        <p>Developed a stock market price prediction model using Linear Regression, analyzing historical stock data to forecast future prices. Implemented data preprocessing, visualization, and evaluation techniques using Python libraries like Pandas, Matplotlib, and Scikit-learn..</p>
+                        <a href="https://github.com/Shorya1117/Stock_price_pridiction"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="https://imgs.search.brave.com/EDgolcbh2Rqm08Dd0sqJ4qkmH4z9pWI2St-OBytD8Bg/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93d3cu/ZG9qaWdneS5jb20v/d3AtY29udGVudC91/cGxvYWRzL3NpdGVz/LzIvMjAyMC8wNi9w/MnAtY3Jvd2RmdW5k/aW5nLnN2Zw">
+                    <div class="layer">
+                        <h3>Crowed Source</h3>
+                        <p>Crowdsourcing gathers ideas, services, or data from a large group of people, usually online.</p>
+                        <a href="https://github.com/Shorya1117/Crowed-Source"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="https://github.com/Shorya1117" class="btn">See More</a>
+        </div>
+      </div>
+<!------------------------contact---------------------->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i> shoryaprajapat@gmail.com</p>
+                    <p> <i class="fa-solid fa-phone-volume"></i> 6367100390</p>
+                    <div class="social-icons">
+                        <a href="https://www.linkedin.com/in/shorya-prajapat-300470296/"><i class="fa-brands fa-linkedin-in"></i></a>
+                        <a href="https://github.com/Shorya1117"><i class="fa-brands fa-github"></i></a>
+                    </div>
+                    <a href="https://drive.google.com/file/d/1XWXBpfoaeDZWcB07e-HyuMBBrAE-kmTo/view?usp=sharing" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your email" required>
+                        <textarea name="Message" rows="9" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright @Shorya Prajapat. Made By <i class="fa-solid fa-heart"></i>Shorya Prajapat >
+        </div>
+    </div>  
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+    
+        function opentab(tabname) {
+            for (let tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for (let tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab"); 
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+    <script>
+        var sidemenu=document.getElementById("sidemenu");
+        var menuToggle=document.getElementById("menu-toggle");
+        function openmenu(){
+            sidemenu.style.right = "0";
+        }
+        
+        function closemenu(){
+            sidemenu.style.right = "-200px";
+        }
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbziXU-B8ne6chj0AP1l5vmYR2QPQmI-SMB704_7YLXJMw9q-I9_iY-UIGYAHhZegwG2/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg=document.getElementById("msg")
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML="Message send successfully"
+                setTimeout(function(){msg.innerHTML=""},5000)
+                form.reset()
+        })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+</body>
+</html>
